@@ -22,8 +22,8 @@ class DynamicStack: UIView {
         stackView.arrangedSubviews.forEach { $0.removeFromSuperview() }
         components.forEach { component in
             do {
-                var componentView = component.apply()
-                self.stackView.addArrangedSubview(componentView)
+                component.apply()
+                self.stackView.addArrangedSubview(component)
             }
         }
     }
