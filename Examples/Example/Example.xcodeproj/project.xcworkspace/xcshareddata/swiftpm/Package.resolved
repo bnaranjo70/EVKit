@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "evkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/bnaranjo70/EVKit",
+      "state" : {
+        "revision" : "050836bffcaf02790b62372611cc865a5d3908e0",
+        "version" : "0.1.0"
+      }
+    }
+  ],
+  "version" : 2
+}
