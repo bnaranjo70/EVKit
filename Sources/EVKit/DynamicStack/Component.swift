@@ -13,8 +13,8 @@ class Component: UIView {
     public var name: String?
     
     public func apply() {
-        buildLabel(value: "TEST LABEL")
-        self.addSubview(label)
+        let newLabel = buildLabel(value: "TEST LABEL")
+        self.addSubview(newLabel)
     }
     
     func buildLabel(value: String) -> UILabel {

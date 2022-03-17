@@ -20,7 +20,7 @@ class DynamicStack: UIView {
  
     func apply(components: [Component]) {
         stackView.arrangedSubviews.forEach { $0.removeFromSuperview() }
-        components.forEach { componennt in
+        components.forEach { component in
             do {
                 var componentView = component.apply(self)
                 self.outerStackView.addArrangedSubview(componentView)
