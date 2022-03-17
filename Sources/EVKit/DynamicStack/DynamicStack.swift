@@ -23,7 +23,7 @@ class DynamicStack: UIView {
         components.forEach { component in
             do {
                 var componentView = component.apply(self)
-                self.outerStackView.addArrangedSubview(componentView)
+                self.stackView.addArrangedSubview(componentView)
             }
         }
     }
