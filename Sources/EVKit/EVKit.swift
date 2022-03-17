@@ -3,4 +3,7 @@ public struct EVKit {
 
     public init() {
     }
+    public func printHello() {
+        print(text)
+    }
 }

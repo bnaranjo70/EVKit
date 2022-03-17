@@ -1,3 +1,4 @@
 # EVKit
 
-A description of this package.
+Component library for IOS apps 
+
