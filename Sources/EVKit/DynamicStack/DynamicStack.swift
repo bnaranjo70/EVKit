@@ -17,17 +17,6 @@ class DynamicStack: UIView {
         stackView.spacing = 20
         return stackView
     }()
-    
-    override func setup() {
-        super.setup()
-    }
-    
-    func buildLabel(value: String) -> UILabel {
-        let label = UILabel()
-        label.text = value
-        label.textColor = branding.background.text.color
-        return label
-    }
  
     func apply(components: [Component]) {
         stackView.arrangedSubviews.forEach { $0.removeFromSuperview() }
