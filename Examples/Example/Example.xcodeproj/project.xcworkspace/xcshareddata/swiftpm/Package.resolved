@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/bnaranjo70/EVKit",
       "state" : {
-        "revision" : "20ca3838610ec365d61e3b0b61cf38ca8a0afa81",
-        "version" : "0.1.4"
+        "revision" : "bc11ed972a280479bd7ba7555ab9d78c97e3864b",
+        "version" : "0.1.5"
       }
     }
   ],
