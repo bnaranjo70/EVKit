@@ -3,9 +3,6 @@
 import UIKit
 import Foundation
 
-open class newClass {
-    public var me: String
-}
 
 public class EVKit {
     public private(set) var text = "Hello, World!"
@@ -17,13 +14,12 @@ public class EVKit {
         print(text)
     }
     
-    public func getDynamicStack() {
-      let nc = newClass()
-        nc.me = "hello"
-        let ds = getDynamicStack()
+    public func getDynamicStack() -> UIView {
+        let ds = DynamicStack()
         let component = Component()
         compoent.apply()
         ds.apply([component])
+        return ds
     }
 }
 #endif
